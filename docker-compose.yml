@@ -11,7 +11,7 @@ services:
       - gateway
 
   gateway:
-    build: ./gateway
+    build: .
     container_name: go-gateway
     depends_on:
       - users
